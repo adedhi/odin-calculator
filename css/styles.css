@@ -5,7 +5,7 @@ button:hover {
 
 button:active {
     transform: scale(1.05);
-    background-color: rebeccapurple;
+    background-color: #CF352E;
 }
 
 .calculator_container {
@@ -61,10 +61,6 @@ button:active {
     
 }
 
-.numbers_row_4 {
-    
-}
-
 .operators {
 
 }
@@ -80,7 +76,7 @@ button:active {
     justify-content: center;
 }
 
-.number_button, .operator_button {
+.number_button, .operator_button, .equal_button, .clear_button {
     border-radius: 4px;
     margin-top: 30px;
     width: 75px;
@@ -91,6 +87,10 @@ button:active {
     font-size: 18px;
 }
 
-.operator_button {
+.operator_button, .equal_button {
     font-size: 22px;
+}
+
+.clear_button {
+    font-size: 20px;
 }
