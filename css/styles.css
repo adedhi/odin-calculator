@@ -1,6 +1,11 @@
 button:hover {
     transform: scale(1.05);
-    border: 1px solid lightcoral;
+    border: 1px solid red;
+}
+
+button:active {
+    transform: scale(1.05);
+    background-color: rebeccapurple;
 }
 
 .calculator_container {
