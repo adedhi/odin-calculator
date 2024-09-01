@@ -25,6 +25,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
     border: 1px solid black;
     background-color: aliceblue;
     width: 300px;
@@ -32,6 +33,7 @@ button:hover {
     justify-content: center;
     text-align: center;
     font-size: 18px;
+    word-wrap: break-word;
 }
 
 .numbers {
